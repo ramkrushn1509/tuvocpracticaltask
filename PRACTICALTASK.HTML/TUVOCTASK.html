@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+     
+       * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .main {
+        position: relative;
+        top: 10px;
+    }
+
+    .img1 {
+        position: absolute;
+        height: 500px;
+        width: 100%;
+        background-color: #19283f;
+        top: -130px;
+    }
+
+    .nav {
+        display: flex;
+        position: absolute;
+        margin-left: 200px;
+    }
+
+    .img1 {
+        position: absolute;
+    }
+
+    .nav1 {
+        margin-left: 500px;
+    }
+
+    a {
+        font-size: 15px;
+        color: #ffffff;
+        font-weight: 400;
+        font-family: "Roboto";
+        margin-left: 50px;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: orange;
+        text-decoration: underline;
+    }
+
+    .main1-1 {
+        position: absolute;
+        color: white;
+        top: 130px;
+        left: 530px;
+    }
+
+    .he1 {
+        font-size: 51px;
+        color: #ffffff;
+        font-weight: 300;
+        font-family: "Roboto";
+    }
+
+    p {
+        font-size: 15px;
+        color: #cecece;
+        font-weight: 400;
+        font-family: "Roboto";
+        margin-left: 80px;
+        margin-top: 5px;
+    }
+
+    button {
+        width: 190px;
+        height: 45px;
+        border-radius: 20px;
+        background-color: #ff3150;
+        margin-left: 120px;
+        margin-top: 15px;
+    }
+
+    .img3 {
+        position: absolute;
+        top: 180px;
+        right: 110px;
+    }
+
+    .img4 {
+        position: absolute;
+        right: 860px;
+    }
+
+    .img5 {
+        position: absolute;
+        left: 900px;
+    }
+
+    .main02 {
+        position: relative;
+        background-color: white;
+        height: 500px;
+        top: 370px;
+    }
+
+    .p1 {
+        text-align: center;
+        color: black;
+        margin-right: 70px;
+    }
+
+    .img6 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .h2 {
+        font-size: 35px;
+        color: #1a2940;
+        font-weight: 500;
+        font-family: "Roboto";
+    }
+
+    .main2-2 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .img7 {
+        width: 78px;
+        height: 194px;
+        margin-left: 140px;
+    }
+
+    .img8 {
+        width: 131px;
+        height: 194px;
+        margin-left: 120px;
+    }
+
+    .img9 {
+        width: 130px;
+        height: 197px;
+        margin-left: 120px;
+    }
+
+    .hea3 {
+        font-size: 20px;
+        color: #ffc501;
+        font-weight: 500;
+        font-family: "Roboto";
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 120px;
+    }
+
+    .img10 {
+        position: absolute;
+        top: 350px;
+        left: 250px;
+    }
+
+    .img11 {
+        position: absolute;
+        top: 350px;
+        left: 48%;
+    }
+
+    .img12 {
+        position: absolute;
+        top: 350px;
+        left: 82%;
+    }
+
+    .main03 {
+        position: relative;
+        height: 796px;
+        background-color: #eff7fa;
+        top: 460px;
+    }
+
+    .main3-3 {
+        margin-top: 20px;
+        margin-left: 30%;
+    }
+    .main3-3 a {
+        color: black;
+    }
+
+    .main3-4 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .main3-4 img {
+        height: 200px;
+        width: 200px;
+        margin-left: 50px;
+       
+
+    
+    }
+
+
+    .parent{
+        margin-top: 500px;
+    }
+       .aaa1{
+        margin-left: 750px;
+        margin-top: 20px;
+        position: relative;
+    }
+    .aaa2{
+        font-size: 30px;
+        margin-left: 650px;
+        margin-top: 20px;
+        color: #1a2940;
+        position: relative;
+    }
+    .aaa3{
+        margin-top: 20px;
+        margin-left: 700px;
+        opacity: 0.5;
+    }
+    .aaa4{
+        margin-left: 500px;
+        margin-top: 30px;
+        opacity: 0.5;
+    }
+    .aaa5{
+        margin-left: 700px;
+        margin-top: 40px;
+        position: relative;
+    }
+    .aaa6{
+        margin-left: 775px;
+        margin-top: -330px;
+        position: absolute;
+    }
+    .bbb1{
+        font-size: 30px;
+        margin-top: -300px;
+        margin-left: 300px;
+        color: #1a2940;
+
+    }
+    .bbb2{
+        margin-left: 300px;
+        font-size: 13px;
+        margin-top: 10px;
+        opacity: 0.5;
+    }
+    .bbb3{
+        margin-left: 300px;
+        font-size: 13px;
+        margin-top: 10px;
+        opacity: 0.5;
+    }
+    .bbb4{
+        border: solid 1px black;
+        height: 10px;
+        width: 150px;
+        padding: 15px;
+        margin-left: 300px;
+        margin-top: 20px;
+        border-radius: 30px;
+        color: white;
+        background-color: rgb(253, 31, 105);
+    }
+      .footer {
+        background-color: #ffc400;
+        height: 10px;
+        padding: 20px;
+        text-align: center;
+        margin-top: 50px;
+        padding-bottom: 50px;
+        font-family: "Roboto";
+      }
+      input {
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        background-color: #ffc400;
+        color: white;
+      }
+      button {
+        border-radius: 010px;
+        background-color: navy;
+        width: 150px;
+        height: 20px;
+        color: white;
+      }
+      .footer2 {
+        padding-top: 20px;
+        color: white;
+        width: 1920px;
+        height: 355px;
+        position: relative;
+        background-color: #19283f;
+        margin-bottom: 800px;
+        display: flex;
+        padding-top: 20px;
+        padding-left: 20px;
+      }
+      .Links {
+        margin-left: 200px;
+      }
+
+      .about {
+        margin-left: 100px;
+      }
+      .page5{
+        margin-top: 150px;
+      }
+      .contact {
+        margin-left: 100px;
+      }
+      .bmail {
+        border-radius: 10px;
+        color: white;
+        background-color: #ff3150;
+        width: 450px;
+        margin-left: 1px;
+        height: 30px;
+      }
+      .LOG{
+        margin-left: 550px;
+        background-color: red;
+       
+       
+    }
+      
+     
+    </style>
+  </head>
+  <body>
+        <div class="main">
+        <img class="img1" src="Layer 7 (1).png">
+        <div class="nav">
+            <img class="img2" src="Logo.png">
+            <div class="nav1">
+                <a href="#" style="color: red;"> Home</a>
+                <a href="#"> services</a>
+                <a href="#"> portfolio</a>
+                <a href="#"> about</a>
+                <a href="#"> contact</a>
+                <span style="color: orangered; margin-left: 20px;"> | <i class="fa fa-search"></i></span>
+                <button class="LOG">LOGIN</button>
+                
+            </div>
+        </div>
+        <div class="main1-1">
+            <h1 class="he1">Taste the creativity</h1>
+            <p>We make awesome graphic and web design</p>
+            <button> Get Started</button>
+            <img class="img3" src="Layer 10.png">
+            <img class="img4" src="Layer 9.png">
+            <img class="img5" src="Layer 8.png">
+        </div>
+    </div>
+
+
+
+    <div class="main02">
+        <center>
+            <img class="img6" src="Composite Path.png" alt="">
+            <h1 class="'h2">WE ARE GOOD AT</h1>
+            <P class="p1">SOME OF THEASE STUFF UNDER</P>
+            <hr style="width: 100px; margin-top: 10px;">
+
+        </center>
+
+
+        <div class="main2-2">
+            <div>
+                <img class="img7" src="Path.png">
+                <h1 class="hea3">GRAPHIC DESIGN</h1>
+                <img class="img10" src="Icon.png" alt="">
+                <p>Pellentesque in ipsum id orci porta dapibus. <br> Vivamus magna justo, lacinia eget <br> consectetur
+                    sed, convallis at tellus.</p>
+            </div>
+            <div>
+                <img class="img8 " src="Path (1).png" alt="">
+                <H1 class="hea3">WEB DESIGN</H1>
+                <img class="img11" src="Icon (1).png" alt="">
+                <p>Pellentesque in ipsum id orci porta dapibus. <br> Vivamus magna justo, lacinia eget <br> consectetur
+                    sed, convallis at tellus.</p>
+
+            </div>
+            <div>
+                <img class="img9" src="3.png" alt="">
+                <h1 class="hea3">APP DESIGN</h1>
+                <img class="img12" src="Icon (2).png" alt="">
+                <p>Pellentesque in ipsum id orci porta dapibus. <br> Vivamus magna justo, lacinia eget <br> consectetur
+                    sed, convallis at tellus.</p>
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="main03">
+        <center>
+            <img class="img6" src="Composite Path.png" alt="">
+            <h1 class="'h2">WE ARE GOOD AT</h1>
+            <P class="p1">SOME OF THEASE STUFF UNDER</P>
+            <hr style="width: 100px; margin-top: 10px;">
+
+        </center>
+
+        <div class="main3-3">
+            <a href="#" style="background-color: RED ; color: white; border-radius: 5PX;">ALL</a>
+            <a href="#">DESIGN</a>
+            <a href="#">CODE</a>
+            <a href="#">PHOTOGRAPHY</a>
+            <a href="#">APP</a>
+        </div>
+
+        <div class="main3-4">
+            <img src="Layer 4.png" alt="" >
+            <img src="d0af1887-2e97-401f-a84c-55642a88a95b.png" alt="">
+            <img src="Layer 1.png" alt="">
+            <img src="Layer 2.png" alt="">
+        </div>
+
+        <div class="main3-4">
+            <img src="Layer 4.png" alt="">
+            <img src="d0af1887-2e97-401f-a84c-55642a88a95b.png" alt="">
+            <img src="Layer 1.png" alt="">
+            <img src="Layer 2.png" alt="">
+        </div>
+
+         <button style="margin-left: 45%; margin-top: 30px; background-color: red;" >I WANT MORE</button>
+    </div>
+     <div class="parent">
+        <div class="aaa1"> <img src="Composite Path.png" alt="" height="50px" width="50px"></div>
+        <div class="aaa2">Some Stuff About Us</div>
+        <div class="aaa3"> THE GREAT TEAM</div>
+        <div class="aaa4">donec natrum congue leo eget malesuada. mauris blandit aliquet elit, eget tincidunt nibh <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pulvinar a pellentesque in ipsum id orci porta dapibus.proin eget tortor risus donec <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   sollicitudin molestic malesuada.</div>
+        <div class="aaa5"><img src="Vector MacBook.png" alt="" height="350px" width="650px"></div>
+        <div class="aaa6"><img src="Screen.png" alt="" height="280px" width="500px"></div>
+
+            <div class="parent1">
+                <div class="bbb1" >Retina Design</div>
+                <div class="bbb2">Vestibulum ac diam sit amet quam vehicula elementum <br> sed sit amet dul mauris blandit elit, eget tincidunt <br> nibh pulvinar</div>
+                <div class="bbb3"> Donec retrum congue leo eget malessuada mauris blandit <br> aliquet elit eget tincidunt nibh pulvinar a pellentesque in <br> ipsum id orci porta dapibus proin eget toritor risus donec <br> solicitudin molestic malesuade</div>
+                <div class="bbb4">ORDER ME ONE </div>
+            </div>
+
+    </div>
+
+    <div class="page5">
+    <div class="footer">
+      <label for="">Subscribe to our newsleteer : </label>
+      <input type="text" placeholder="Enter email address" />
+      <button>subscribe</button>
+    </div>
+    <div class="footer2">
+      <div>
+        <img src="Logo.png" alt="" /> <br />
+        <br />
+        pellentesque in ipsum id orci porta dapibus.vivamus magna <br />
+        justo, lacinia eget consectetur sed, convallis at tellus
+        <br />
+        <br />
+        <br />
+        Created by <span style="color: green">graphberry</span>, Belgrade,serbia
+        <br />
+       <i class="fa fa-copyright"></i>
+     2017- <span style="color: yellow">Bondi.inc</span>
+      </div>
+      <div class="Links">
+        Links <br />
+        <br />
+        Home <br />
+        <br />
+        our services <br />
+        <br />
+        portfolio <br />
+        <br />
+        testimonials <br />
+        <br />
+        support <br />
+        <br />
+        terms And conditions
+      </div>
+      <div class="about">
+        About US<br />
+        <br />
+
+        sign in <br />
+        <br />
+        Register<br />
+        <br />
+        About us<br />
+        <br />
+        Blog<br />
+        <br />
+        Contact us
+      </div>
+      <div></div>
+      <div class="contact">
+        Contact us <br />
+        <br />
+        Get in touch with us via mail phone.we are waiting for <br />
+        your call or message <br />
+        <br />
+        <button class="bmail">graphberry@gmail.com</button><br><br><br><br>
+         <pre><i class="fa fa-facebook"></i>  <i class="fa fa-twitter"></i>  <i class="fa fa-google"></i>
+            
+
+
+      </div>
+    </div>
+    </div>
+  </body>
+</html>
